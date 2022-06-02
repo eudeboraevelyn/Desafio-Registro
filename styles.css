@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  height: 1024px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  color: #070707;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 396px;
+  width: 100%;
+}
+
+.title {
+  font-size: 37px;
+  font-weight: 700;
+  margin: 60px 0 22px;
+  color: #7e0c78;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.lable.field {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.field-input {
+  border: 1px solid #abb3a8;
+  padding: 12px 14px;
+  border-radius: 5px;
+  margin-top: 9px;
+}
+
+img {
+  position: absolute;
+  right: 490px;
+  width: 30px;
+  height: 30px;
+  transform: translateY(105%);
+  cursor: pointer;
+}
+
+.password {
+  padding-right: 60px;
+}
+
+.checkbox-field {
+  margin-right: 8px;
+}
+
+.terms {
+  display: flex;
+  margin-bottom: 28px;
+  text-align: justify;
+  font-size: 13px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  background-color: #7e0c78;
+  color: #ffffff;
+  border: 0;
+  padding: 14px 0;
+  font-size: 16px;
+  margin-bottom: 28px;
+  border-radius: 5px;
+  transition-duration: 300ms;
+}
+
+.button:hover {
+  background-color: #b450af;
+}
+
+a {
+  color: rgb(9, 180, 180);
+}

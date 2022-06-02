@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="container">
+      <form class="form">
+        <h1 class="title">Faça seu Cadastro</h1>
+
+        <div class="box">
+          <label class="label-field" for="name-field">Nome Completo</label>
+          <input
+            type="text"
+            placeholder="Digite seu nome completo"
+            class="field-input"
+            id="name-field"
+            required
+          />
+        </div>
+        <div class="box">
+          <label class="label-field">E-mail</label>
+          <input
+            class="field-input"
+            type="email"
+            placeholder="Digite seu E-mail"
+            required
+          />
+        </div>
+
+        <div class="box">
+          <label class="label-field">Senha</label>
+          <input
+            class="field-input password"
+            type="password"
+            id="password"
+            placeholder="Crie uma senha"
+            required
+          />
+          <img class="image" src="open.png" />
+        </div>
+
+        <div class="box">
+          <label class="label-field">Confirmar Senha</label>
+          <input
+            class="field-input password"
+            type="password"
+            id="password"
+            placeholder="Crie uma senha"
+            required
+          />
+          <img class="image" src="open.png" />
+        </div>
+
+        <div class="terms">
+          <input class="checkbox-field" type="checkbox" id="checkbox" />
+          <label for="checkbox">
+            Aceito os termos de uso e concordo com as
+            <a target="_blank" href="#" required>políticas de privacidade.</a>
+          </label>
+        </div>
+        <button class="button">Cadastro</button>
+      </form>
+    </section>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
